@@ -30,6 +30,8 @@ function App() {
 
   return (
     <div>
+      <h2>Peliculas</h2>
+
       <input type="text" value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Buscar una película"/>
 
       <button onClick={validar}>Buscar pelicula</button>
